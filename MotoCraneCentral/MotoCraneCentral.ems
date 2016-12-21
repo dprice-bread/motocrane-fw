@@ -1,0 +1,18 @@
+version = "1.0.0"
+description = ""
+
+schema MotoCraneCentral {
+
+    int8 packet[15] {
+        writeonly;
+    };
+    
+    int8 status[11] {
+        readonly;
+    };
+ 
+    int16 track[5] {
+        readonly; 
+    };
+
+};

@@ -1,0 +1,1 @@
+"./Em/MotoCraneCentral.obj" "./Em/MotoCraneCentral-STUBS.obj" "./Hal/Hal.obj" "./MotoCraneCentralF5529.obj" "../lnk_msp430f5529.cmd" -l"libmath.a" -l"libc.a" 
